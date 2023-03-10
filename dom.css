@@ -1,0 +1,41 @@
+body {
+    background-color: cornsilk;
+}
+
+header {
+    background-color: rgb(107, 224, 224);
+    padding: 20px;
+    
+}
+
+h1 {
+    text-align: center;
+    font: bold 30pt Arial;
+}
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(202, 136, 202);
+}
+
+#esquerda {
+    position: absolute;
+    left: 300px;
+    bottom: 450px;
+    line-height: 200px;
+    text-align: center;
+}
+
+#meio {
+    position: absolute;
+    left: 1180px;
+    bottom: 450px;
+}
+
+#direita {
+    position: absolute;
+    right: 300px;
+    bottom: 450px;
+}
+

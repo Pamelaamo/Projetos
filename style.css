@@ -1,0 +1,305 @@
+body {
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    font: normal 15pt Arial;
+    color: white;
+    
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 37, 212);
+    border-radius: 10px;
+    
+}
+
+#quadrado0 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 37, 212);
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    
+    
+}
+
+#quadrado1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    left: 1125px;
+    bottom: 755px;
+}
+
+#quadrado2 {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(207, 37, 212); 
+    border-radius: 10px;
+    position: absolute;
+    right: 1125px;
+    bottom: 755px;
+    
+}
+
+#quadrado3 {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(207, 37, 212);
+    border-radius:10px;
+    position: absolute;
+    left: 1020px;
+    bottom: 755px;   
+}
+
+#quadrado4 {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(207, 37, 212);;
+    border-radius: 10px;
+    position: absolute;
+    left: 915px;
+    bottom: 755px;
+}
+
+#quadrado5 {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    left: 810px;
+    bottom:755px;
+}
+
+#quadrado6 {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    right:1020px;
+    bottom: 755px;
+}
+
+#quadrado7 {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    right:914px;
+    bottom: 755px;
+}
+
+#esquerda1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    left: 810px;
+    bottom: 650px;
+}
+
+#esquerda2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    left: 810px;
+    bottom: 545px;
+}
+
+#esquerda3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    left: 810px;
+    bottom: 440px;
+}
+
+#esquerda4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    left: 850px;
+    bottom: 335px;
+}
+
+#esquerda5 {
+    width: 100px;
+    height: 100px;
+    background-color:  rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    left: 910px;
+    bottom: 230px;
+}
+
+#queixoesquer1 {
+    width: 100px;
+    height: 100px;
+    background-color:  rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    left: 1020px;
+    bottom: 155px;
+}
+
+#queixoesquer2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    left: 1128px;
+    bottom: 110px;
+}
+
+#queixoponta {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    left: 1180px;
+    bottom: 5px;
+}
+
+#queixodirei1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    right: 917px;
+    bottom: 650px;
+}
+
+#queixodirei2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    right: 917px;  
+    bottom: 545px;
+
+}
+
+#queixodirei3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    right: 917px;
+    bottom: 440px;
+}
+
+#queixodirei4{
+    width: 100px;
+    height: 100px;
+    background-color:  rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    right: 950px;
+    bottom: 335px;
+}
+
+#queixodirei5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    right: 1008px;
+    bottom: 230px;
+}
+
+#queixodirei6 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    right: 1115px;
+    bottom: 160px;
+}
+
+#queixodirei7 {
+    width: 100px;
+    height: 100px;
+    background-color:  rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    right: 1225px;
+    bottom: 110px;
+
+}
+
+#olhoesquer {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    left: 1020px;
+    top: 250px;
+    
+}
+
+#olhodirei {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 37, 212);
+    border-radius: 10px;
+    position: absolute;
+    left: 1330px;
+    top: 250px;
+}
+
+#nariz1 {   
+    width: 80px;
+    height: 80px;
+    background-color: rgb(207, 37, 212);; 
+    border-radius: 10px;
+    position: absolute;
+    right: 1250px;
+    bottom: 354px;      
+    
+}
+
+#nariz2 {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(207, 37, 212);; 
+    border-radius: 10px;
+    position: absolute;
+    left: 1140px;  
+    bottom: 354px;
+}
+
+#nariz3 {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(207, 37, 212);; 
+    border-radius: 10px;
+    position: absolute;
+    left: 1183px;  
+    bottom: 269px;
+}
+
