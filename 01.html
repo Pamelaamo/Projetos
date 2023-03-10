@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dom.css">
+    <title>Testando DOM</title>
+</head>
+<body>
+
+    <header>
+        <h1>Testando DOM!</h1>
+    </header>
+
+    <main>
+
+
+        <section id="esquerda" class="quadrado">
+
+            <div id="frente">
+                interaja...
+            </div>
+
+            <script>
+                var f = window.document.getElementById('frente')
+
+                f.addEventListener('click', clicar)
+
+                f.addEventListener('mouseentrar', entrar)
+
+                f.addEventListener('mouseout', sair)
+
+                function clicar() {
+
+                    f.innerText = 'Clicou'
+
+                    f.style.background = 'orange'
+                }
+
+                function entrar() {
+
+                    f.innerText = 'Entrou'
+
+                    f.style.background = 'pink'
+                }
+
+                function sair() {
+
+                    f.innerText = 'Sair'
+
+                    f.style.background = 'green'
+                }
+                
+            </script>
+
+        </section>
+
+
+
+        <section id="meio" class="quadrado">
+
+            <div>
+                interaja comigo...
+            </div>
+
+
+            <script>
+                var f = window.document.getElementById('frente')
+
+                f.addEventListener('click', clicar)
+
+                f.addEventListener('mouseentrar', entrar)
+
+                f.addEventListener('mouseout', sair)
+
+                function clicar() {
+
+                    f.innerText = 'Clicou'
+
+                    f.style.background = 'blue'
+                }
+
+                function entrar() {
+
+                    f.innerText = 'Entrou'
+
+                    f.style.background = 'pink'
+                }
+
+                function sair() {
+
+                    f.innerText = 'Sair'
+
+                    f.style.background = 'red'
+                }
+                
+            </script>
+
+
+
+        </section>
+
+
+
+        <section id="direita"  class="quadrado">
+
+
+
+        </section>
+    </main>
+    
+</body>
+</html>
