@@ -27,15 +27,29 @@ h1 {
     text-align: center;
 }
 
+#frente1 {
+
+}
+
 #meio {
     position: absolute;
     left: 1180px;
     bottom: 450px;
+    line-height: 200px;
+    text-align: center;
+}
+
+#centro2 {
+
 }
 
 #direita {
     position: absolute;
     right: 300px;
     bottom: 450px;
+    line-height: 200px;
+    text-align: center;
 }
-
+#canto3 {
+    
+}

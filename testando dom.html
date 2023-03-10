@@ -18,12 +18,12 @@
 
         <section id="esquerda" class="quadrado">
 
-            <div id="frente">
+            <div id="frente1">
                 interaja...
             </div>
 
             <script>
-                var f = window.document.getElementById('frente')
+                var f = window.document.getElementById('frente1')
 
                 f.addEventListener('click', clicar)
 
@@ -60,13 +60,12 @@
 
         <section id="meio" class="quadrado">
 
-            <div>
+            <div id="centro2">
                 interaja comigo...
             </div>
 
-
             <script>
-                var f = window.document.getElementById('frente')
+                var f = window.document.getElementById('centro2')
 
                 f.addEventListener('click', clicar)
 
@@ -78,14 +77,58 @@
 
                     f.innerText = 'Clicou'
 
-                    f.style.background = 'blue'
+                    f.style.background = 'lime'
                 }
 
                 function entrar() {
 
                     f.innerText = 'Entrou'
 
-                    f.style.background = 'pink'
+                    f.style.background = 'purple'
+                }
+
+                function sair() {
+
+                    f.innerText = 'Sair'
+
+                    f.style.background = 'turquoise'
+                }
+                
+            </script>
+
+
+        </section>
+
+
+
+        <section id="direita"  class="quadrado">
+
+            <div id="canto3">
+                clique em aqui 
+            </div>
+
+
+            <script>
+                var f = window.document.getElementById('canto3')
+
+                f.addEventListener('click', clicar)
+
+                f.addEventListener('mouseentrar', entrar)
+
+                f.addEventListener('mouseout', sair)
+
+                function clicar() {
+
+                    f.innerText = 'Clicou'
+
+                    f.style.background = 'gray'
+                }
+
+                function entrar() {
+
+                    f.innerText = 'Entrou'
+
+                    f.style.background = 'yellow'
                 }
 
                 function sair() {
@@ -97,13 +140,8 @@
                 
             </script>
 
+            
 
-
-        </section>
-
-
-
-        <section id="direita"  class="quadrado">
 
 
 
